@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynteract Dashboard Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .iframe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 20px;
+        }
+
+        .iframe-container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .iframe-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cynteract Subpages Dashboard</h1>
+
+        <div class="iframe-grid">
+            <div class="iframe-container">
+                <div class="iframe-header">Home (/)</div>
+                <iframe src="https://my.cynteract.com/?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">Action (/action)</div>
+                <iframe src="https://my.cynteract.com/action?lang=de&preview=1"></iframe>
+            </div>
+
+            <!-- <div class="iframe-container">
+                <div class="iframe-header">Auth Callback (/auth/callback)</div>
+                <iframe src="https://my.cynteract.com/auth/callback?lang=de&preview=1"></iframe>
+            </div> -->
+
+            <div class="iframe-container">
+                <div class="iframe-header">Change Password (/change-password)</div>
+                <iframe src="https://my.cynteract.com/change-password?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">Distributor (/distributor)</div>
+                <iframe src="https://my.cynteract.com/distributor?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">My Account (/my-account)</div>
+                <iframe src="https://my.cynteract.com/my-account?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">Register (/register)</div>
+                <iframe src="https://my.cynteract.com/register?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">Reset Password (/reset-password)</div>
+                <iframe src="https://my.cynteract.com/reset-password?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">Sign In (/sign-in)</div>
+                <iframe src="https://my.cynteract.com/sign-in?lang=de&preview=1"></iframe>
+            </div>
+
+            <div class="iframe-container">
+                <div class="iframe-header">Verify (/verify)</div>
+                <iframe src="https://my.cynteract.com/verify?lang=de&preview=1"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
