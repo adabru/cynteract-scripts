@@ -1,0 +1,4 @@
+https://cynteract.com {
+	tls internal
+	reverse_proxy localhost:8000
+}
